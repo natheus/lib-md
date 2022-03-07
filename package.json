@@ -1,16 +1,16 @@
 {
   "name": "lib-md",
   "version": "1.0.1",
-  "description": "",
+  "description": "Lib para encontrar [links](URL) nos arquivos MD",
   "main": "./cli.js",
   "bin": {
-    "<lib-md>": "./cli.js"
+    "lib-md": "./cli.js"
   },
   "preferGlobal": true,
   "type": "module",
   "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
-    "cli": "node ./src/cli.js"
+    "cli": "node cli.js"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "markdown",
     "URL"
   ],
-  "author": "Natheus <natheusmunes@gmail.com>",
+  "author": "Natheus",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/natheus/lib-md/issues",
