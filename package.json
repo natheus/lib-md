@@ -1,0 +1,41 @@
+{
+  "name": "lib-md",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./cli.js",
+  "bin": {
+    "<lib-md>": "./cli.js"
+  },
+  "preferGlobal": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "cli": "node ./src/cli.js"
+  },
+  "keywords": [
+    "markdown",
+    "URL"
+  ],
+  "author": "Natheus <natheusmunes@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-styles": "^6.1.0",
+    "chalk": "^5.0.0",
+    "node-fetch": "^3.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "jest": "^27.5.1"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "chalk": "chalk/source/index.js",
+      "#ansi-styles": "chalk/source/vendor/ansi-styles/index.js",
+      "#supports-color": "chalk/source/vendor/supports-color/index.js"
+    },
+    "transform": {}
+  }
+}
