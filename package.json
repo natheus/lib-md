@@ -12,12 +12,21 @@
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "cli": "node ./src/cli.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natheus/lib-md.git"
+  },
   "keywords": [
     "markdown",
     "URL"
   ],
   "author": "Natheus <natheusmunes@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url" : "https://github.com/natheus/lib-md/issues",
+    "email" : "natheusdev@gmail.com"
+  },
+  "homepage": "https://github.com/natheus/lib-md#readme",
   "dependencies": {
     "ansi-styles": "^6.1.0",
     "chalk": "^5.0.0",
