@@ -1,6 +1,6 @@
 {
   "name": "lib-md",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "./cli.js",
   "bin": {
@@ -23,8 +23,8 @@
   "author": "Natheus <natheusmunes@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url" : "https://github.com/natheus/lib-md/issues",
-    "email" : "natheusdev@gmail.com"
+    "url": "https://github.com/natheus/lib-md/issues",
+    "email": "natheusdev@gmail.com"
   },
   "homepage": "https://github.com/natheus/lib-md#readme",
   "dependencies": {
